@@ -1,7 +1,6 @@
 import React from 'react';
 import colors from '../styles/colors';
 import { useLang } from '../context/LanguageContext';
-import { translations } from '../data/translations';
 
 function Header() {
     const { lang, toggleLang } = useLang();
