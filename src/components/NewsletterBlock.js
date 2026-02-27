@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import colors from '../styles/colors';
-import { newsletter } from '../data/links';
 import { useLang } from '../context/LanguageContext';
 import { translations } from '../data/translations';
 

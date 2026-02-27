@@ -1,6 +1,5 @@
 import React from 'react';
 import colors from '../styles/colors';
-import { profile } from '../data/links';
 
 function ProfileCard() {
     return (

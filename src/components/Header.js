@@ -5,7 +5,6 @@ import { translations } from '../data/translations';
 
 function Header() {
     const { lang, toggleLang } = useLang();
-    const t = translations[lang];
 
     return (
         <header
