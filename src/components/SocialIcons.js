@@ -11,8 +11,7 @@ function SocialIcons() {
       <div
           className="fade-in-up"
           data-delay="200"
-          style={{ display: 'flex', gap: '1rem', marginBottom: '2.5rem', flexWrap: 'wrap', justifyContent: 'center' }}
-      >
+          style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}      >
         {socialLinks.map(({ id, icon, label, href }) => (
         <a
             key={id}

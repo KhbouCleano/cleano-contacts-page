@@ -31,8 +31,8 @@ function ProfileCard() {
                 <div
                     style={{
                         position: 'relative',
-                        width: 300,
-                        height: 300,
+                        width: 230,
+                        height: 230,
                         borderRadius: '50%',
                         padding:4,
                         background: `linear-gradient(135deg, ${colors.pinkLight}, #ffffff, ${colors.blue})`,
