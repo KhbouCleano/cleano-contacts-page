@@ -45,22 +45,16 @@ function MediaPlaceholder() {
                 background: 'linear-gradient(to left, #FAFAFD, transparent)',
                 zIndex: 2, pointerEvents: 'none',
             }} />
-
-            {/* Lien cliquable */}
-            {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
-
-            href="https://www.google.com/maps?q=35.8591099,10.5995836&z=17&hl=fr"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Voir sur Google Maps"
-            style={{
-            position: 'absolute',
-            inset: 0,
-            zIndex: 3,
-            cursor: 'pointer',
-        }}
+            <a   href="https://www.google.com/maps?q=35.8591099,10.5995836&z=17&hl=fr"
+                 target="_blank"
+                 rel="noreferrer"
+                 style={{
+                     position: 'absolute',
+                     inset: 0,
+                     zIndex: 3,
+                     cursor: 'pointer',
+                 }}
             />
-
             {/* Google Maps */}
             <iframe
                 title="Cleano Location"
