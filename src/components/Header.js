@@ -55,10 +55,10 @@ function Header() {
                         navigator.share({
                             title: 'Cleano',
                             text: 'Découvrez Cleano !',
-                            url: 'https://cleano.tn/',
+                            url: 'https://cleano-tn.com/',
                         });
                     } else {
-                        navigator.clipboard.writeText('https://cleano.tn/');
+                        navigator.clipboard.writeText('https://cleano-tn.com/');
                         alert('Lien copié !');
                     }
                 }}

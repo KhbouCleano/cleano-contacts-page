@@ -14,7 +14,7 @@ export const getSocialLinks = (lang) => {
     { id: 's-tiktok',    icon: 'fa-brands fa-tiktok',      label: t.link_tiktok,    href: 'https://www.tiktok.com/@cleano.tn' },
     { id: 's-youtube',   icon: 'fa-brands fa-youtube',     label: t.link_youtube,   href: 'https://www.youtube.com/@khboucleano' },
     { id: 's-whatsapp',  icon: 'fa-brands fa-whatsapp',    label: t.link_whatsapp,  href: 'https://wa.me/21655777400' },
-    { id: 's-website',   icon: 'fa-solid fa-globe',        label: t.link_website,   href: 'https://cleano.tn/' },
+    { id: 's-website',   icon: 'fa-solid fa-globe',        label: t.link_website,   href: 'https://cleano-tn.com/' },
   ];
 };
 
@@ -26,7 +26,7 @@ export const getMainLinks = (lang) => {
     { id: 'm-youtube',   icon: 'fa-brands fa-youtube',   label: t.link_youtube,   href: 'https://www.youtube.com/@khboucleano' },
     { id: 'm-facebook',  icon: 'fa-brands fa-facebook',  label: t.link_facebook,  href: 'https://www.facebook.com/profile.php?id=61565405105731' },
     { id: 'm-whatsapp',  icon: 'fa-brands fa-whatsapp',  label: t.link_whatsapp,  href: 'https://wa.me/21655777400' },
-    { id: 'm-website',   icon: 'fa-solid fa-globe',      label: t.link_website,   href: 'https://cleano.tn/' },
+    { id: 'm-website',   icon: 'fa-solid fa-globe',      label: t.link_website,   href: 'https://cleano-tn.com/' },
   ];
 };
 
