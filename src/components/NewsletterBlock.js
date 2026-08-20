@@ -22,7 +22,7 @@ function NewsletterBlock() {
 
         try {
             // Envoyer les données à Google Sheets
-            const response = await fetch(GOOGLE_SCRIPT_URL, {
+            await fetch(GOOGLE_SCRIPT_URL, {
                 method: 'POST',
                 mode: 'no-cors', // Important pour CORS
                 headers: {
